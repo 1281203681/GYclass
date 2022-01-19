@@ -1,0 +1,17 @@
+<scroll-view>
+    <view class="all_wrap">
+        <view class="top_wrap">
+            <view class="tip" bind:tap="new">查看新日记</view>
+        </view>
+        <view class="card_wrap">
+            <view class="caption">
+                <image mode="widthFix" src="cloud://gykb-3gpyrnzwc016b452.6779-gykb-3gpyrnzwc016b452-1308292394/title.png" />
+            </view>
+            <view class="content_wrap">{{content}}</view>
+            <view class="time">2021-10-21 19：22</view>
+        </view>
+        <view class="operation" bind:tap="share">
+            <button open-type="share" class="send">送给朋友></button>
+        </view>
+    </view>
+</scroll-view>

@@ -1,0 +1,75 @@
+.all_wrap {
+  background-image: linear-gradient(to bottom, #85ddff, #cdfcf5);
+}
+.all_wrap .top_wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 48rpx;
+  font-weight: 600;
+  color: white;
+  padding-top: 68rpx;
+}
+.all_wrap .flesh {
+  color: white;
+  text-align: center;
+  padding-bottom: 96rpx;
+}
+.all_wrap .caculate_wrap {
+  border-top-left-radius: 36rpx;
+  border-top-right-radius: 36rpx;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 24rpx;
+}
+.all_wrap .caculate_wrap .pageSection .change {
+  display: flex;
+  flex-direction: row;
+  padding: 24rpx;
+}
+.all_wrap .caculate_wrap .pageSection .change .radio {
+  display: flex;
+  flex-direction: row;
+}
+.all_wrap .caculate_wrap .pageSection .change .radio .weui-cell__hd {
+  padding-left: 12rpx;
+}
+.all_wrap .caculate_wrap .list_wrap .ageSections .ageSection .change {
+  font-size: 36rpx;
+  display: flex;
+  flex-direction: row;
+  padding: 24rpx;
+}
+.all_wrap .caculate_wrap .list_wrap .ageSections .ageSection .change .radio {
+  display: flex;
+  flex-direction: row;
+}
+.all_wrap .caculate_wrap .list_wrap .ageSections .ageSection .change .radio .weui-cell__hd {
+  padding-left: 12rpx;
+}
+.all_wrap .caculate_wrap .handle_wrap .content_wrap {
+  margin-top: 48rpx;
+  display: flex;
+  flex-direction: row;
+}
+.all_wrap .caculate_wrap .handle_wrap .content_wrap .letf_wrap {
+  flex: 1;
+}
+.all_wrap .caculate_wrap .handle_wrap .content_wrap .mid_wrap {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+}
+.all_wrap .caculate_wrap .handle_wrap .content_wrap .mid_wrap input {
+  border-bottom: 1rpx solid black;
+  width: 30%;
+  text-align: center;
+}
+.all_wrap .caculate_wrap .handle_wrap .content_wrap .right_wrap {
+  flex: 1;
+}
+.all_wrap .caculate_wrap .handle_wrap .content_wrap .right_wrap .grade {
+  color: #85f1ff;
+}

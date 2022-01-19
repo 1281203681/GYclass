@@ -1,0 +1,21 @@
+<view class="all_wrap">
+    <view class="section">
+        <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}" class="picker">
+            <view class="picker_name">{{array[index]}}∨</view>
+        </picker>
+    </view>
+    <view class="item_wrap">
+        <view class="item" wx:for="{{arr}}" data-index="{{index}}">
+            <view class="content_wrap">
+                <view class="content">{{item}}</view>
+            </view>
+            <view class="operation">
+                <view class="like_img">
+                    <image src="{{url[index]}}" bind:tap="like" data-index="{{index}}"/>
+                </view>
+                <view class="copy" bind:tap="copy" data-index="{{index}}">复制</view>
+            </view>
+        </view>
+    </view>
+    <view class="tip">来源:致远笔记</view>
+</view>

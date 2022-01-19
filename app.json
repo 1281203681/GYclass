@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/more/more",
+    "pages/hot/hot",
+    "pages/manage/manage",
+    "pages/chinese/chinese",
+    "pages/grade/grade",
+    "pages/news/news",
+    "pages/task/task",
+    "pages/score/score",
+    "pages/expand/expand",
+    "pages/about/about",
+    "pages/active/active",
+    "pages/vip/vip",
+    "pages/caculate/caculate",
+    "pages/help/help",
+    "pages/log/log",
+    "pages/fress/fress",
+    "pages/quality/quality",
+    "pages/class_room/class_room",
+    "pages/user/user",
+    "pages/search/search",
+    "pages/login/login",
+    "pages/demo2/demo2"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#85ddff",
+    "navigationBarTitleText": "广油助手",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "icon/首页.png",
+        "selectedIconPath": "icon/首页_1.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的",
+        "iconPath": "icon/我的.png",
+        "selectedIconPath": "icon/我的_1.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

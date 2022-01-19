@@ -1,0 +1,37 @@
+page {
+  background-color: whitesmoke;
+}
+.all_wrap .top_content {
+  text-align: center;
+  color: white;
+  align-items: center;
+  padding-top: 48rpx;
+  font-size: 48rpx;
+  padding-bottom: 96rpx;
+  background-image: linear-gradient(to bottom, #85DDFF, #d8fcfd);
+  border-bottom-right-radius: 40%;
+  border-bottom-left-radius: 40%;
+}
+.all_wrap .content_wrap .mess .top_wrap {
+  background-color: white;
+  margin: 48rpx;
+  padding: 24rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 32rpx;
+}
+.all_wrap .content_wrap .mess .top_wrap .img image {
+  height: 220rpx;
+  width: 220rpx;
+}
+.all_wrap .content_wrap .mess .top_wrap .title {
+  font-size: 48rpx;
+  padding-top: 24rpx;
+  color: #ff9b74;
+}
+.all_wrap .content_wrap .mess .top_wrap .content {
+  padding-top: 48rpx;
+  font-size: 34rpx;
+}

@@ -1,0 +1,116 @@
+page{
+}
+.login_all_wrap {
+    background-color: rgb(241, 241, 241);
+    .tip_wrap {
+        color    : red;
+        font-size: 28rpx;
+        padding  : 12rpx;
+
+        .tip {}
+    }
+
+    .login_wrap {
+        background-color: white;
+        padding         : 48rpx;
+        // border: 1rpx solid skyblue;
+        margin-left     : 48rpx;
+        margin-right    : 48rpx;
+        margin-top      : 10%;
+        display         : flex;
+        flex-direction  : column;
+        text-align      : center;
+        justify-content : center;
+        align-items     : center;
+
+        .img_wrap {
+            image {
+                height       : 140rpx;
+                width        : 140rpx;
+                border       : 1rpx solid rgb(209, 209, 209);
+                border-radius: 50%;
+                padding      : 24rpx;
+            }
+        }
+
+        .operation_wrap {
+            display       : flex;
+            flex-direction: column;
+            padding       : 24rpx;
+
+            .list {
+                display       : flex;
+                flex-direction: row;
+                border        : 1rpx solid rgb(240, 240, 240);
+                padding       : 12rpx;
+
+                .title {
+                    font-weight: 500;
+                    width      : 100rpx;
+                }
+
+                input {
+                    text-align  : left;
+                    padding-left: 24rpx;
+                }
+            }
+        }
+
+    }
+
+    .bt {
+        margin-top      : 48rpx;
+        border          : 2rpx solid rgb(202, 132, 196);
+        background-image: linear-gradient(to right, rgb(191, 126, 252), rgb(255, 176, 251));
+        text-align      : center;
+        padding         : 24rpx;
+        margin-left     : 48rpx;
+        margin-right    : 48rpx;
+        color           : white;
+    }
+}
+.user_all_wrap{
+    background-color: white;
+    .content_item_wrap{
+        box-shadow: 4px 4px 5px #b1b0b0;
+        margin: 24rpx;
+        border-radius: 12rpx;
+        display: flex;
+        flex-direction: row;
+        padding: 24rpx;
+        .left_content{
+            display: flex;
+            flex-direction: column;
+            flex: 4;
+            // background-color: brown;
+            justify-content: center;
+            color: white;
+            font-size: 34rpx;
+            .chinese{}
+            .english{
+                margin-top: 12rpx;
+            }
+        }
+        .right_wrap{
+            flex: 1;
+            // background-color: burlywood;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            .img_wrap{
+                image{
+                    height: 80rpx;
+                    width: 80rpx;
+                }
+            }
+        }
+    }
+    .bt_wrap{
+        display: flex;
+        flex-direction: column;
+        padding: 24rpx;
+        button{
+            margin-top: 24rpx;
+        }
+    }
+}

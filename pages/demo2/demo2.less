@@ -1,0 +1,112 @@
+page {
+    background-color: rgb(247, 247, 247);
+}
+
+.all_wrap {
+    .top_wrap {
+        background-color: white;
+
+        // box-shadow: 10px 10px 5px #bebebe;
+        .row_list {
+        height: 58rpx;
+
+            justify-content: center;
+            display        : flex;
+            flex-direction : row;
+            align-items: center;
+
+            .list {
+                // background-color: blue;
+                padding: 12rpx;
+            }
+        }
+    }
+
+    .table_wrap {
+        margin-top      : 8rpx;
+        background-color: white;
+        padding         : 8rpx;
+
+        .row_list {
+            display       : flex;
+            flex-direction: row;
+
+            .month_list {
+                display       : flex;
+                flex-direction: column;
+                width         : 6%;
+                font-size     : 32rpx;
+                align-items   : center;
+                text-align    : center;
+
+                .cau_list {
+                    height     : 110rpx;
+                    padding-top: 6rpx;
+
+                    .num {
+                        font-weight: 500;
+                    }
+
+                    .time {
+                        font-size: 22rpx;
+                        color    : rgb(78, 78, 78);
+                    }
+                }
+
+                .month {
+                    height   : 80rpx;
+                    font-size: 26rpx;
+                }
+            }
+
+            .day_list {
+                // display       : flex;
+                flex-direction: column;
+                font-size     : 36rpx;
+                width         : 94%;
+
+                .data_item {
+                    text-align      : center;
+                    justify-content : center;
+                    height          : 80rpx;
+                    font-size       : 32rpx;
+                    // background-color: rebeccapurple;
+
+                    .day {}
+
+                    .data {
+                        font-size: 22rpx;
+                    }
+                }
+
+                .class_detail {
+                    position: absolute;
+                    .detail {
+                        margin           : 4rpx;
+                        border-radius    : 8rpx;
+                        color            : white;
+                        // height           : 220rpx;
+                        width            : 98rpx;
+                        text-align       : left;
+                        justify-content  : center;
+                        text-align       : center;
+                        display          : flex;
+                        flex-direction   : column;
+
+                        .class_list {
+                            font-size  : 28rpx;
+                            padding-top: 12rpx;
+                        }
+
+                        .class_add {
+                            font-size: 28rpx;
+                            word-wrap: break-word;
+
+                        }
+                    }
+                    
+                }
+            }
+        }
+    }
+}

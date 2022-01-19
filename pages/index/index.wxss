@@ -1,0 +1,78 @@
+.all_wrap .play_wrap {
+  background-color: white;
+}
+.all_wrap .play_wrap .swiper {
+  display: flex;
+  padding: 36rpx;
+}
+.all_wrap .play_wrap .swiper .swiper_item image {
+  width: 100%;
+  height: 90%;
+  border-radius: 24rpx;
+}
+.all_wrap .na_wrap {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+}
+.all_wrap .na_wrap .na_item {
+  padding: 24rpx;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.all_wrap .na_wrap .na_item image {
+  height: 80rpx;
+  width: 80rpx;
+}
+.all_wrap .na_wrap .na_item .na_content {
+  padding-top: 6rpx;
+  font-size: 30rpx;
+}
+.all_wrap .class_detail .title {
+  padding: 24rpx;
+  font-size: 32rpx;
+  color: royalblue;
+}
+.all_wrap .class_detail .class_item {
+  display: flex;
+  flex-direction: column;
+  padding: 24rpx;
+  margin-bottom: 24rpx;
+  background-color: #d9f6ff;
+  margin: 12rpx;
+  border-radius: 12rpx;
+  color: #418799;
+}
+.all_wrap .class_detail .class_item .top_tip_wrap {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1rpx solid #98d2e9;
+  padding-bottom: 12rpx;
+}
+.all_wrap .class_detail .class_item .top_tip_wrap .class_name {
+  font-weight: 700;
+}
+.all_wrap .class_detail .class_item .top_tip_wrap .class_room {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  white-space: normal;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+.all_wrap .class_detail .class_item .content_wrap {
+  font-size: 33rpx;
+  padding-top: 12rpx;
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  white-space: normal;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}

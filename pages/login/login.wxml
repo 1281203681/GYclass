@@ -1,0 +1,57 @@
+<scroll-view>
+    <view class="all_wrap" bindtouchstart='touchStart' bindtouchmove='touchMove' bindtouchend="touchEnd">
+        <view class="book_wrap">
+            <view class="top_tip">
+                <view class="cau_wrap">
+                    <view class="img">
+                        <image src="../../icon/book.png" />
+                    </view>
+                    <view class="book_name">{{book_name}}</view>
+                    <view class="tip_content">读书让我们与众不同</view>
+                    <view class="tip_content">左右滑动可翻页</view>
+                </view>
+            </view>
+            <view class="title">馆藏信息</view>
+            <navigator class="item_wrap" wx:for="{{bookMess}}" bind:tap="getBookDetail" data-index="{{index}}">
+                <view class="item">
+                    <view class="mess_item">
+                        <view class="left_wrap">
+                            <view class="number">{{num_arr[index]}}</view>
+                        </view>
+                        <view class="right_wrap">
+                            <view class="book_mess">{{item[0]}}</view>
+                            <view class="book_num">{{item[1]}}</view>
+                            <view class="book_index">{{item[2]}}</view>
+                        </view>
+                    </view>
+                </view>
+            </navigator>
+            <view class="change_page_wrap">
+                <view class="sub" bind:tap="sub">{{'<'}}上一页</view>
+                <view class="num">第{{count}}页</view>
+                <view class="add" bind:tap="add">下一页></view>
+            </view>
+        </view>
+    </view>
+    <page-container show="{{active}}" class="page_wrap">
+        <view class="content_wrap">
+            <view class="title">{{bookTitle}}</view>
+            <view class="list_wrap_item">
+                <view class="wrap_1">
+                    <view class="left_wrap" wx:for="{{detailArr}}" wx:for-item="item" wx:for-index="index" style="margin-bottom: 24rpx;">
+                        <view class="content_item" wx:for="{{item}}" wx:for-index="index" wx:for-item="item1">
+                            {{item1}}
+                        </view>
+                    </view>
+                </view>
+                <view class="wrap_2">
+                    <view class="rigth_wrap" wx:for="{{messArr}}" wx:for-item="item" wx:for-index="index" style="margin-bottom: 24rpx;">
+                        <view class="content_item_1" wx:for="{{item}}" wx:for-item="item1" wx:for-index="index1">
+                            {{item1}}
+                        </view>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </page-container>
+</scroll-view>

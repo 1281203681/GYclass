@@ -1,0 +1,22 @@
+.all_wrap .top_wrap {
+  padding-bottom: 96rpx;
+  background-image: linear-gradient(to bottom, #85ddff, #d8fcfd);
+  border-bottom-right-radius: 40%;
+  border-bottom-left-radius: 40%;
+}
+.all_wrap .top_wrap .title {
+  color: white;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 10%;
+  font-size: 46rpx;
+}
+.all_wrap .content_wrap {
+  padding: 24rpx;
+  font-size: 36rpx;
+}
+.all_wrap .content_wrap .content {
+  padding-top: 12rpx;
+  color: #666666;
+}

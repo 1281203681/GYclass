@@ -1,0 +1,16 @@
+<view class="all_wrap">
+    <view class="search_wrap">
+        <input placeholder="书名/作者/主题词/ISBN" bind:input="handleContent" />
+        <view class="search" bind:tap="search">搜索</view>
+    </view>
+    <view class="change_wrap">
+        <radio-group bindchange="radioChange" class="change_wrap">
+            <label class="change" wx:for="{{items}}" wx:key="{{item.value}}">
+                <view class="content_1">
+                    <radio value="{{item.value}}" checked="{{item.checked}}" />
+                </view>
+                <view class="content_2">{{item.name}}</view>
+            </label>
+        </radio-group>
+    </view>
+</view>

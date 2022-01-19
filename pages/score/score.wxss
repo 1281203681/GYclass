@@ -1,0 +1,79 @@
+.all_wrap .top_wrap {
+  background-image: linear-gradient(to bottom, #85ddff, #a7f2f5);
+  box-shadow: 5px 5px 5px #f0f0f0;
+  text-align: center;
+  color: white;
+}
+.all_wrap .top_wrap .avg {
+  font-size: 46rpx;
+  padding-bottom: 96rpx;
+  padding-top: 48rpx;
+}
+.all_wrap .top_wrap .tip_wrap {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 12rpx;
+  font-size: 44rpx;
+}
+.all_wrap .top_wrap .tip_wrap .mid {
+  padding-left: 12rpx;
+  padding-right: 12rpx;
+}
+.all_wrap .list_wrap {
+  padding: 24rpx;
+}
+.all_wrap .list_wrap .item_wrap .item {
+  display: flex;
+  flex-direction: row;
+  padding: 12rpx;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 12rpx;
+  border-bottom: 1rpx solid #c4c4c4;
+}
+.all_wrap .list_wrap .item_wrap .item .left_wrap {
+  flex: 1;
+  display: flex;
+  height: 130rpx;
+  width: 130rpx;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  font-weight: 600;
+}
+.all_wrap .list_wrap .item_wrap .item .mid_wrap {
+  flex: 4;
+  text-align: left;
+}
+.all_wrap .list_wrap .item_wrap .item .mid_wrap .caption {
+  font-weight: 700;
+  font-size: 35rpx;
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  white-space: normal;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  padding-left: 12rpx;
+}
+.all_wrap .list_wrap .item_wrap .item .mid_wrap .detail {
+  font-size: 28rpx;
+  display: flex;
+  flex-direction: row;
+  padding-top: 12rpx;
+}
+.all_wrap .list_wrap .item_wrap .item .mid_wrap .detail .list {
+  padding-left: 12rpx;
+}
+.all_wrap .list_wrap .item_wrap .item .right_wrap {
+  flex: 1;
+  color: skyblue;
+  font-size: 40rpx;
+  font-weight: 700;
+}

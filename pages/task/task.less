@@ -1,0 +1,106 @@
+.all_wrap {
+    .top_wrap {
+        background-image: linear-gradient(to bottom, rgb(133, 221, 255), rgb(164, 249, 252));
+        box-shadow      : 5px 5px 5px #f0f0f0;
+        color           : white;
+        text-align      : center;
+    }
+
+    .name {
+        font-size  : 46rpx;
+        padding-top: 48rpx;
+        padding-bottom  : 96rpx;
+
+    }
+
+    .operation_wrap {
+        font-size: 44rpx;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        .left {}
+
+        .year {
+            padding-left: 6rpx;
+            padding-right: 6rpx;
+        }
+
+        .right {}
+    }
+
+    .list_wrap {
+        padding: 24rpx;
+
+        .item_wrap {
+            .item {
+                display           : flex;
+                flex-direction    : row;
+                padding           : 12rpx;
+                align-items       : center;
+                justify-content   : center;
+                text-align        : center;
+                // border         : 1rpx solid skyblue;
+                margin-top        : 12rpx;
+                border-bottom     : 1rpx solid rgb(196, 196, 196);
+
+                .left_wrap {
+                    flex               : 1;
+                    display            : flex;
+                    // background-color: red;
+                    height             : 100rpx;
+                    width              : 100rpx;
+                    justify-content    : center;
+                    align-items        : center;
+                    text-align         : center;
+                    color              : white;
+                    font-weight        : 600;
+                    background-image   : linear-gradient(to bottom, rgb(82, 207, 255), rgb(81, 249, 255));
+
+                    .num {}
+                }
+
+                .mid_wrap {
+                    flex           : 4;
+                    text-align     : left;
+                    // padding-left: 12rpx;
+
+                    .caption {
+                        font-weight       : 700;
+                        font-size         : 35rpx;
+                        display           : -webkit-box;
+                        overflow          : hidden;
+                        text-overflow     : ellipsis;
+                        word-wrap         : break-word;
+                        white-space       : normal;
+                        -webkit-line-clamp: 1;
+                        -webkit-box-orient: vertical;
+                        padding-left      : 12rpx;
+                    }
+
+                    .detail_wrap {
+                        font-size     : 34rpx;
+                        display       : flex;
+                        flex-direction: row;
+
+                        .list {
+                            padding-left: 12rpx;
+                        }
+                    }
+
+                }
+
+                .right_wrap {
+                    text-align : left;
+                    flex       : 1;
+                    color      : skyblue;
+                    font-size  : 32rpx;
+                    font-weight: 700;
+                    width      : 100rpx;
+
+                    .grade {}
+                }
+            }
+        }
+    }
+}

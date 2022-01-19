@@ -1,0 +1,28 @@
+.all_wrap .bt_wrap button {
+  margin-top: 48rpx;
+}
+.all_wrap .input {
+  border: 1rpx solid black;
+  margin: 12rpx;
+  border-radius: 24rpx;
+  padding-top: 24rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.all_wrap .input .handle {
+  border-bottom: 1rpx solid #888888;
+}
+.all_wrap .input button {
+  margin-top: 12rpx;
+}
+.all_wrap .date {
+  display: flex;
+  flex-direction: column;
+  padding: 24rpx;
+}
+.all_wrap .date .title {
+  text-align: center;
+}

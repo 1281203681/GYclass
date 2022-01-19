@@ -1,0 +1,84 @@
+page {
+  background-color: #f7f7f7;
+}
+.all_wrap .top_wrap {
+  background-color: white;
+}
+.all_wrap .top_wrap .row_list {
+  height: 58rpx;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.all_wrap .top_wrap .row_list .list {
+  padding: 12rpx;
+}
+.all_wrap .table_wrap {
+  margin-top: 8rpx;
+  background-color: white;
+  padding: 8rpx;
+}
+.all_wrap .table_wrap .row_list {
+  display: flex;
+  flex-direction: row;
+}
+.all_wrap .table_wrap .row_list .month_list {
+  display: flex;
+  flex-direction: column;
+  width: 6%;
+  font-size: 32rpx;
+  align-items: center;
+  text-align: center;
+}
+.all_wrap .table_wrap .row_list .month_list .cau_list {
+  height: 110rpx;
+  padding-top: 6rpx;
+}
+.all_wrap .table_wrap .row_list .month_list .cau_list .num {
+  font-weight: 500;
+}
+.all_wrap .table_wrap .row_list .month_list .cau_list .time {
+  font-size: 22rpx;
+  color: #4e4e4e;
+}
+.all_wrap .table_wrap .row_list .month_list .month {
+  height: 80rpx;
+  font-size: 26rpx;
+}
+.all_wrap .table_wrap .row_list .day_list {
+  flex-direction: column;
+  font-size: 36rpx;
+  width: 94%;
+}
+.all_wrap .table_wrap .row_list .day_list .data_item {
+  text-align: center;
+  justify-content: center;
+  height: 80rpx;
+  font-size: 32rpx;
+}
+.all_wrap .table_wrap .row_list .day_list .data_item .data {
+  font-size: 22rpx;
+}
+.all_wrap .table_wrap .row_list .day_list .class_detail {
+  position: absolute;
+}
+.all_wrap .table_wrap .row_list .day_list .class_detail .detail {
+  margin: 4rpx;
+  border-radius: 8rpx;
+  color: white;
+  width: 98rpx;
+  text-align: left;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.all_wrap .table_wrap .row_list .day_list .class_detail .detail .class_list {
+  font-size: 28rpx;
+  padding-top: 12rpx;
+}
+.all_wrap .table_wrap .row_list .day_list .class_detail .detail .class_add {
+  font-size: 28rpx;
+  word-wrap: break-word;
+}

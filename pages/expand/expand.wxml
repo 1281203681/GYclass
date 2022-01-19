@@ -1,0 +1,23 @@
+<view class="all_wrap">
+    <view class="top_wrap">素拓分:{{totalGrade}}</view>
+    <view class="list_wrap" >
+        <view class="item_wrap">
+            <view class="item" wx:for="{{expanObj}}">
+                <view class="left_wrap">
+                    <view class="num">{{num_arr[index]}}</view>
+                </view>
+                <view class="mid_wrap">
+                    <view class="caption">{{item.ktmc}}</view>
+                    <view class="school">{{item.xmjbmc}}</view>
+                    <view class="status">
+                        <view class="title">状态</view>
+                        <view class="content">{{item.shztmc}}</view>
+                    </view>
+                </view>
+                <view class="right_wrap">
+                    <view class="grade">{{item.hdxf}}</view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

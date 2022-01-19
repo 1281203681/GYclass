@@ -1,0 +1,51 @@
+.all_wrap .top_title {
+  padding-bottom: 96rpx;
+  background-image: linear-gradient(to bottom, #85ddff, #d8fcfd);
+  border-bottom-right-radius: 40%;
+  border-bottom-left-radius: 40%;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 10%;
+  font-size: 46rpx;
+}
+.all_wrap .content {
+  display: flex;
+  padding: 24rpx;
+  font-size: 36rpx;
+  color: #616161;
+}
+.all_wrap .thank_wrap .thank_item {
+  padding: 12rpx;
+  display: flex;
+  flex-direction: row;
+}
+.all_wrap .thank_wrap .thank_item .mess_wrap {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+.all_wrap .thank_wrap .thank_item .mess_wrap .img_wrap {
+  display: flex;
+  flex-direction: row;
+}
+.all_wrap .thank_wrap .thank_item .mess_wrap .img_wrap .img_item {
+  padding-left: 12rpx;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.all_wrap .thank_wrap .thank_item .mess_wrap .img_wrap .img_item image {
+  height: 100rpx;
+  width: 100rpx;
+  border-radius: 50%;
+}
+.all_wrap .thank_wrap .thank_item .content_wrap {
+  padding-left: 24rpx;
+  color: #696969;
+}

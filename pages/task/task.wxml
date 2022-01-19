@@ -1,0 +1,32 @@
+<view class="all_wrap">
+    <view class="top_wrap">
+        <view class="name">上课任务</view>
+        <view class="tip">提示:左右滑动可翻页</view>
+        <view class="tip">请在教务系统开放时间查询</view>
+        <view class="operation_wrap">
+            <view class="left" bind:tap="sub">{{"<"}}</view>
+            <view class="year">{{year}}</view>
+            <view class="right" bind:tap="add">></view>
+        </view>
+    </view>
+    <view class="list_wrap" bindtouchstart='touchStart' bindtouchmove='touchMove' bindtouchend="touchEnd">
+        <view class="item_wrap">
+            <view class="item" wx:for="{{taskObj}}">
+                <view class="left_wrap">
+                    <view class="num">{{num_arr[index]}}</view>
+                </view>
+                <view class="mid_wrap">
+                    <view class="caption">{{item.kcmc}}</view>
+                    <!-- <view class="school">{{item.xmjbmc}}</view> -->
+                    <view class="detail_wrap">
+                        <view class="list">{{item.xdfsmc}}</view>
+                        <view class="list">{{item.khfsmc}}</view>
+                    </view>
+                </view>
+                <view class="right_wrap">
+                    <view class="grade">学分{{item.xf}}</view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

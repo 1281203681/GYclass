@@ -1,0 +1,26 @@
+<view class="all_wrap">
+    <view class="top_wrap">微博热搜</view>
+    <view class="content_wrap">
+        <view class="item_wrap">
+            <view class="item" wx:for="{{hotObj}}" bind:tap="detail" data-item="{{item}}">
+                <view class="{{index+1<=3?'left':'left_1'}}">{{index+1}}</view>
+                <view class="mid">{{item.title}}</view>
+                <view class="right">{{item.hot}}</view>
+            </view>
+        </view>
+    </view>
+</view>
+<!-- <view bindtap="clickme">点击我可以看到底部弹框的出现</view> -->
+<!-- 屏幕背景变暗的背景 -->
+<view class="commodity_screen" bindtap="hideModal" wx:if="{{showModalStatus}}"></view>
+<!-- 弹出框 -->
+<view animation="{{animationData}}" class="commodity_attr_box" wx:if="{{showModalStatus}}">
+    <view class="caption">相关话题</view>
+    <view class="topic_item">
+        <view class="itme" wx:for="{{topicObj}}" >
+            <view class="left">{{index+1}}</view>
+            <view class="right">{{item.key}}</view>
+        </view>
+    </view>
+    <view class="top_cancel" bind:tap="cancel">取消</view>
+</view>

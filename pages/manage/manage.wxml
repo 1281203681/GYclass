@@ -1,0 +1,18 @@
+<view class="all_wrap">
+    <view class="bt_wrap">
+        <button class="list" type="primary" bind:tap="fress_class_room">西城教室</button>
+        <button class="list" type="primary" bind:tap="guandu">官渡教室</button>
+        <button class="list" type="primary" bind:tap="guanghua">光华教室</button>
+        <button class="list" type="warn" bind:tap="delete_after">清除过期教室</button>
+        <button class="list" type="warn" bind:tap="end">清除无效教室</button>
+        <button class="list" type="warn" bind:tap="kbEnd">清除无效课表</button>
+    </view>
+    <view class="input">输入当前周次
+        <input placeholder="当前周次" bind:input="week" class="handle"/>
+        <button size="mini" type="primary" bind:tap="submit">提交</button>
+    </view>
+    <view class="date">
+        <view class="title">数据</view>
+        <view class="list">总用户:{{totalNum}}</view>
+    </view>
+</view>

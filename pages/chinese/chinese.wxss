@@ -1,0 +1,51 @@
+.all_wrap .section {
+  padding: 12rpx;
+  text-align: right;
+  color: #85ddff;
+  font-weight: 700;
+}
+.all_wrap .item_wrap {
+  padding: 12rpx;
+  background-color: white;
+}
+.all_wrap .item_wrap .item .content_wrap {
+  color: #494949;
+  font-weight: 700;
+  background-image: linear-gradient(to right, #92e6ff, #86ffeb);
+  padding: 12rpx;
+  margin-top: 12rpx;
+  font-size: 32rpx;
+  border-top-right-radius: 12rpx;
+  border-top-left-radius: 12rpx;
+}
+.all_wrap .item_wrap .item .operation {
+  background-image: linear-gradient(to right, #92e6ff, #86ffeb);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12rpx;
+  border-bottom-left-radius: 12rpx;
+  border-bottom-right-radius: 12rpx;
+}
+.all_wrap .item_wrap .item .operation .like_img {
+  flex: 1;
+}
+.all_wrap .item_wrap .item .operation .like_img image {
+  height: 50rpx;
+  width: 50rpx;
+}
+.all_wrap .item_wrap .item .operation .copy {
+  font-size: 32rpx;
+  font-weight: 700;
+  text-align: right;
+  flex: 5;
+  color: #494949;
+}
+.all_wrap .tip {
+  font-size: 32rpx;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding-top: 12rpx;
+  color: #888888;
+}

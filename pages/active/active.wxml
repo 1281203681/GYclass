@@ -1,0 +1,21 @@
+<view class="all_wrap">
+    <view class="top_wrap">助手体验官</view>
+    <view class="content_wrap" wx:if="{{cardNum==1}}">
+        <view class="tip">助手纪念卡</view>
+        <view class="card_wrap">
+            <view class="top_contet">
+                <view class="card_number">No.{{cardMess.card_number}}</view>
+                <view class="vip_tip">VIP</view>
+            </view>
+            <view class="mid_contetn">纪念卡</view>
+            <view class="mid_tip">特权开发中</view>
+            <view class="bott_content" bind:tap="sendFriend">转赠好友></view>
+        </view>
+    </view>
+    <view class="content_wrap" wx:else>
+        <view class="nanImg">
+            <image src="../../icon/nan.png" mode="widthFix" class="nanImg" />
+        </view>
+        <view class="namTip">您还没有纪念卡</view>
+    </view>
+</view>

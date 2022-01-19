@@ -1,0 +1,34 @@
+<scroll-view class="all_wrap" bindtouchstart='touchStart' bindtouchmove='touchMove' bindtouchend="touchEnd">
+    <view class="top_wrap">
+        <view class="row_list">
+            <view class="list" bind:tap="sub">{{'<'}}</view>
+            <view class="list">第{{week}}周</view>
+            <view class="list" bind:tap="add">></view>
+        </view>
+    </view>
+    <view class="table_wrap">
+        <view class="row_list">
+            <view class="month_list">
+                <view class="month">{{month}}月</view>
+                <view class="cau_list" wx:for="{{class_num}}" wx:for-index="index" wx:for-item="item">
+                    <view class="num">{{item.num}}</view>
+                    <view class="time">{{item.time}}</view>
+                </view>
+            </view>
+            <view class="day_list" wx:for="{{day_num}}" wx:for-index="index" wx:for-item="item">
+                <view class="data_item">
+                    <view class="day">{{item.week_day}}</view>
+                    <!-- <view class="day">{{day_num.item}}</view> -->
+                    <view class="data">{{item.month}}/{{item.day}}</view>
+                </view>
+                <view class="class_detail" wx:for="{{item.class_detail}}" wx:for-index="index1" wx:for-item="item1">
+                    <view class="detail"
+                        style="height:{{(item1.jcdm.length%3)*220}}rpx;margin-top:{{((((item1.jcdm%100-2)/2)-(item1.jcdm.length/4-1))*220)+3}}rpx;background-color:{{colorArrays[item1.kcbh%10]}}">
+                        <view class="class_list">{{item1.kcmc}}</view>
+                        <text class="class_add">@{{item1.jxcdmc}}</text>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+</scroll-view>

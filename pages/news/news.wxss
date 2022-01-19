@@ -1,0 +1,20 @@
+.all_wrap .item_wrap .item {
+  display: flex;
+  flex-direction: row;
+  padding: 12rpx;
+}
+.all_wrap .item_wrap .item .left_wrap image {
+  height: 180rpx;
+  width: 180rpx;
+}
+.all_wrap .item_wrap .item .right_wrap {
+  padding-left: 12rpx;
+}
+.all_wrap .item_wrap .item .right_wrap .title {
+  font-weight: 700;
+}
+.all_wrap .item_wrap .item .right_wrap .tip_wrap {
+  display: flex;
+  flex-direction: row;
+  font-size: 24rpx;
+}

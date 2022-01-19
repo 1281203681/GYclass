@@ -1,0 +1,71 @@
+page {
+    // background-color: rgb(231, 231, 231);
+}
+
+.all_wrap {
+    .section {
+        padding    : 12rpx;
+        text-align : right;
+        color      : rgb(133,221,255);
+        font-weight: 700;
+
+        .picker {}
+
+        .picker_name {}
+    }
+
+    .item_wrap {
+        padding: 12rpx;
+        background-color: white;
+
+        .item {
+            .content_wrap {
+                color              : rgb(73, 73, 73);
+                font-weight        : 700;
+                background-image   : linear-gradient(to right, rgb(146, 230, 255), rgb(134, 255, 235));
+                padding            : 12rpx;
+                margin-top         : 12rpx;
+                font-size          : 32rpx;
+                border-top-right-radius: 12rpx;
+                border-top-left-radius: 12rpx;
+
+                .content {}
+            }
+
+            .operation {
+                background-image   : linear-gradient(to right, rgb(146, 230, 255), rgb(134, 255, 235));
+                display       : flex;
+                flex-direction: row;
+                align-items: center;
+                padding: 12rpx;
+                border-bottom-left-radius: 12rpx;
+                border-bottom-right-radius: 12rpx;
+
+                .like_img {
+                    flex: 1;
+                    image {
+                        height: 50rpx;
+                        width : 50rpx;
+                    }
+                }
+
+                .copy {
+                    font-size: 32rpx;
+                    font-weight: 700;
+                    text-align: right;
+                    flex: 5;
+                    color              : rgb(73, 73, 73);
+                }
+            }
+        }
+
+    }
+    .tip{
+        font-size: 32rpx;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        padding-top: 12rpx;
+        color: rgb(136, 136, 136);
+    }
+}

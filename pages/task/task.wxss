@@ -1,0 +1,79 @@
+.all_wrap .top_wrap {
+  background-image: linear-gradient(to bottom, #85ddff, #a4f9fc);
+  box-shadow: 5px 5px 5px #f0f0f0;
+  color: white;
+  text-align: center;
+}
+.all_wrap .name {
+  font-size: 46rpx;
+  padding-top: 48rpx;
+  padding-bottom: 96rpx;
+}
+.all_wrap .operation_wrap {
+  font-size: 44rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.all_wrap .operation_wrap .year {
+  padding-left: 6rpx;
+  padding-right: 6rpx;
+}
+.all_wrap .list_wrap {
+  padding: 24rpx;
+}
+.all_wrap .list_wrap .item_wrap .item {
+  display: flex;
+  flex-direction: row;
+  padding: 12rpx;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 12rpx;
+  border-bottom: 1rpx solid #c4c4c4;
+}
+.all_wrap .list_wrap .item_wrap .item .left_wrap {
+  flex: 1;
+  display: flex;
+  height: 100rpx;
+  width: 100rpx;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  font-weight: 600;
+  background-image: linear-gradient(to bottom, #52cfff, #51f9ff);
+}
+.all_wrap .list_wrap .item_wrap .item .mid_wrap {
+  flex: 4;
+  text-align: left;
+}
+.all_wrap .list_wrap .item_wrap .item .mid_wrap .caption {
+  font-weight: 700;
+  font-size: 35rpx;
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  white-space: normal;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  padding-left: 12rpx;
+}
+.all_wrap .list_wrap .item_wrap .item .mid_wrap .detail_wrap {
+  font-size: 34rpx;
+  display: flex;
+  flex-direction: row;
+}
+.all_wrap .list_wrap .item_wrap .item .mid_wrap .detail_wrap .list {
+  padding-left: 12rpx;
+}
+.all_wrap .list_wrap .item_wrap .item .right_wrap {
+  text-align: left;
+  flex: 1;
+  color: skyblue;
+  font-size: 32rpx;
+  font-weight: 700;
+  width: 100rpx;
+}

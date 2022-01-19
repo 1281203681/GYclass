@@ -1,0 +1,13 @@
+<view class="all_wrap">
+    <view class="top_wrap">
+        <view class="title">使用帮助</view>
+    </view>
+    <view class="content_wrap">
+        <view class="title">·功能介绍</view>
+        <view class="content">1.课表查询：使用方法跟传统的课表查询方式一致，一次登录即可永久查询。更改密码后需要重新登录，修改密码请到教务系统进行。课表数据更新频率是定期更新，无需担心课表过期或新选课程存在误差的情况；</view>
+        <view class="content">2.每日课程：使用、数据更新方式同课表查询一致。每日课程内容仅支持查询当日课程内容，如需查询更多上课内容，会根据用户反馈后期更新。</view>
+        <view class="content">3.图书馆藏：只需选择查询类型、输入查询内容即可查询，内容为广油图书馆官方数据；查询后点击卡片即可获取详细内容。</view>
+        <view class="content">4.空闲教室：数据每周更新一次，排序1.0.0版本仅支持查询当日空闲教室，请根据教室实际情况进行安排，请勿过度占用公共资源。</view>
+        <view class="content">5.助手纪念卡：对使用v1.0.0的用户发放纪念，每个学号仅支持一张纪念卡，卡号不重复，将支持纪念卡转赠。</view>
+    </view>
+</view>

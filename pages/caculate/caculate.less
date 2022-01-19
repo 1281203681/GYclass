@@ -1,0 +1,113 @@
+page {}
+
+.all_wrap {
+    background-image: linear-gradient(to bottom, rgb(133,221,255), rgb(205, 252, 245));
+    // background-image: linear-gradient(to bottom, rgb(255, 182, 222), rgb(253, 226, 236));
+
+    .top_wrap {
+        display        : flex;
+        justify-content: center;
+        align-items    : center;
+        text-align     : center;
+        font-size      : 48rpx;
+        font-weight    : 600;
+        color          : white;
+        padding-top: 68rpx;
+    }
+    .flesh{
+        color: white;
+        text-align: center;
+        padding-bottom: 96rpx;
+    }
+
+    .caculate_wrap {
+        border-top-left-radius : 36rpx;
+        border-top-right-radius: 36rpx;
+        background-color       : white;
+        display                : flex;
+        flex-direction         : column;
+        padding                : 24rpx;
+
+        .pageSection {
+            .change {
+                display: flex;
+                flex-direction: row;
+                padding: 24rpx;
+                .radio{
+                    display: flex;
+                    flex-direction: row;
+                    .weui-cell__hd{
+                        padding-left: 12rpx;
+                        radio{}
+                    }
+                    .weui-cell__bd{
+
+                    }
+                }
+            }
+        }
+
+        .list_wrap {
+            .ageSections {
+                .ageSection {
+                    .change {
+                        font-size: 36rpx;
+                        display: flex;
+                        flex-direction: row;
+                        padding: 24rpx;
+                        .radio {
+                            display: flex;
+                            flex-direction: row;
+                            .weui-cell__hd{
+                                padding-left: 12rpx;
+                                radio{
+                                }
+                            }
+                            .weui-cell__bd{
+                            }
+                        }
+                    }
+
+                    
+                }
+            }
+
+        }
+
+        .handle_wrap {
+            .content_wrap {
+                margin-top    : 48rpx;
+                display       : flex;
+                flex-direction: row;
+
+                .letf_wrap {
+                    flex: 1;
+
+                    .title {}
+                }
+
+                .mid_wrap {
+                    flex          : 1;
+                    display       : flex;
+                    flex-direction: row;
+
+                    input {
+                        border-bottom: 1rpx solid black;
+                        width        : 30%;
+                        text-align   : center;
+                    }
+
+                    .tip {}
+                }
+
+                .right_wrap {
+                    flex: 1;
+
+                    .grade {
+                        color: rgb(133, 241, 255);
+                    }
+                }
+            }
+        }
+    }
+}

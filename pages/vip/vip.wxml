@@ -1,0 +1,17 @@
+<view class="all_wrap">
+    <view class="top_content">感谢使用</view>
+    <view class="content_wrap">
+        <view class="mess">
+            <view class="top_wrap">
+                <view class="img">
+                    <image src="../../icon/vipCard.png" />
+                </view>
+                <view class="title">助手纪念卡</view>
+                <view class="content">感谢您使用广油助手v1.0版本，为表示纪念，点击下方可领取助手纪念卡。该版本限量100张，每个学号可领取一张，可转赠给好友。</view>
+            </view>
+            <view class="mid_wrap">
+                <button type="primary" bind:tap="vip">立即领取</button>
+            </view>
+        </view>
+    </view>
+</view>

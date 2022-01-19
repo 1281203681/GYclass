@@ -1,0 +1,153 @@
+.all_wrap .book_wrap .top_tip {
+  padding-bottom: 48rpx;
+  background-image: linear-gradient(to bottom, #85ddff, #d8fcfd);
+}
+.all_wrap .book_wrap .top_tip .cau_wrap {
+  color: white;
+  padding: 24rpx;
+  justify-content: center;
+  text-align: center;
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+}
+.all_wrap .book_wrap .top_tip .cau_wrap .img image {
+  height: 120rpx;
+  width: 120rpx;
+}
+.all_wrap .book_wrap .top_tip .cau_wrap .book_name {
+  font-size: 42rpx;
+}
+.all_wrap .book_wrap .top_tip .cau_wrap .tip_content {
+  font-size: 32rpx;
+  padding-top: 12rpx;
+}
+.all_wrap .book_wrap .title {
+  padding: 24rpx;
+  font-size: 32rpx;
+  border-bottom: 1rpx solid #c0c0c0;
+  margin-left: 12rpx;
+  margin-right: 12rpx;
+  color: #7e7e7e;
+}
+.all_wrap .book_wrap .item_wrap {
+  display: flex;
+}
+.all_wrap .book_wrap .item_wrap .item {
+  display: flex;
+}
+.all_wrap .book_wrap .item_wrap .item .mess_item {
+  display: flex;
+  flex-direction: row;
+  padding: 24rpx;
+  justify-content: center;
+  align-content: center;
+  width: 700rpx;
+}
+.all_wrap .book_wrap .item_wrap .item .mess_item .left_wrap {
+  border-top-left-radius: 16rpx;
+  border-bottom-left-radius: 16rpx;
+  border-top: 1rpx solid skyblue;
+  border-bottom: 1rpx solid skyblue;
+  border-left: 1rpx solid skyblue;
+  background-image: linear-gradient(to bottom, #85ddff, #d8fcfd);
+  text-align: center;
+  align-content: center;
+  flex: 1;
+}
+.all_wrap .book_wrap .item_wrap .item .mess_item .left_wrap .number {
+  margin-top: 58%;
+  color: white;
+}
+.all_wrap .book_wrap .item_wrap .item .mess_item .right_wrap {
+  border-top-right-radius: 16rpx;
+  border-bottom-right-radius: 16rpx;
+  background-color: white;
+  border-top: 1rpx solid skyblue;
+  border-bottom: 1rpx solid skyblue;
+  border-right: 1rpx solid skyblue;
+  padding: 12rpx;
+  font-size: 32rpx;
+  flex: 5;
+}
+.all_wrap .book_wrap .item_wrap .item .mess_item .right_wrap .book_mess {
+  font-weight: 600;
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  white-space: normal;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.all_wrap .book_wrap .item_wrap .item .mess_item .right_wrap .book_num {
+  font-size: 32rpx;
+  color: #727272;
+}
+.all_wrap .book_wrap .item_wrap .item .mess_item .right_wrap .book_index {
+  font-size: 32rpx;
+  color: #727272;
+}
+.all_wrap .book_wrap .change_page_wrap {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+  padding: 12rpx;
+  color: #454546;
+}
+.all_wrap .book_wrap .change_page_wrap .num {
+  padding-left: 16rpx;
+  padding-right: 16rpx;
+}
+.page_wrap .content_wrap {
+  display: flex;
+  flex-direction: column;
+  padding: 24rpx;
+  font-size: 32rpx;
+}
+.page_wrap .content_wrap .title {
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  padding: 24rpx;
+  font-size: 36rpx;
+  font-weight: 600;
+}
+.page_wrap .content_wrap .list_wrap_item {
+  display: flex;
+  flex-direction: row;
+}
+.page_wrap .content_wrap .list_wrap_item .wrap_1 {
+  width: 30%;
+}
+.page_wrap .content_wrap .list_wrap_item .wrap_1 .left_wrap {
+  padding: 12rpx;
+  background-image: linear-gradient(to bottom, #85f1ff, #d8fcfd);
+  border-top-left-radius: 12rpx;
+  border-bottom-left-radius: 12rpx;
+  border-top: 1rpx solid skyblue;
+  border-bottom: 1rpx solid skyblue;
+  border-left: 1rpx solid skyblue;
+}
+.page_wrap .content_wrap .list_wrap_item .wrap_2 {
+  width: 70%;
+}
+.page_wrap .content_wrap .list_wrap_item .wrap_2 .rigth_wrap {
+  padding: 12rpx;
+  border-top: 1rpx solid skyblue;
+  border-bottom: 1rpx solid skyblue;
+  border-right: 1rpx solid skyblue;
+  border-top-right-radius: 12rpx;
+  border-bottom-right-radius: 12rpx;
+}
+.page_wrap .content_wrap .list_wrap_item .wrap_2 .rigth_wrap .content_item_1 {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  white-space: normal;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}

@@ -1,0 +1,231 @@
+<view class="all_wrap" style="background-image:{{color[sexValue]}}">
+    <view class="top_wrap" bind:tap="avg">总分：{{total}}</view>
+    <view class="flesh" bind:tap="avg">点击刷新</view>
+    <!-- <view class="top_wrap" bind:tap="avg" hidden="{{!}}">点击察看</view> -->
+    <view class="caculate_wrap">
+        <view class="pageSection">
+            <radio-group bindchange="sexChange" class="change">
+                <label class="radio" wx:for="{{sex}}" wx:key="{{sex.value}}">
+                    <view class="weui-cell__hd">
+                        <radio value="{{item.value}}" checked="{{item.checked}}" />
+                    </view>
+                    <view class="weui-cell__bd">{{item.name}}</view>
+                </label>
+            </radio-group>
+        </view>
+        <view class="list_wrap">
+            <view class="ageSections">
+                <view class="ageSection">
+                    <radio-group bindchange="ageChange" class="change">
+                        <label class="radio" wx:for="{{age}}" wx:key="{{age.value}}">
+                            <view class="weui-cell__hd">
+                                <radio value="{{item.value}}" checked="{{item.checked}}" />
+                            </view>
+                            <view class="weui-cell__bd">{{item.name}}</view>
+                        </label>
+                    </radio-group>
+                </view>
+            </view>
+        </view>
+        <view class="handle_wrap" hidden="{{hidMale}}">
+            <view class="content_wrap">
+                <view class="letf_wrap">
+                    <view class="title">身高</view>
+                </view>
+                <view class="mid_wrap">
+                    <input bind:input="input" id="0" />
+                    <view class="tip">cm</view>
+                </view>
+                <view class="right_wrap">
+                    <view class="grade" hidden="{{true}}">{{height}}分</view>
+                </view>
+            </view>
+            <view class="content_wrap">
+                <view class="letf_wrap">
+                    <view class="title">体重</view>
+                </view>
+                <view class="mid_wrap">
+                    <input bind:input="input" id="1" />
+                    <view class="tip">kg</view>
+                </view>
+                <view class="right_wrap">
+                    <view class="grade">{{weigh}}分</view>
+                </view>
+            </view>
+            <view class="content_wrap">
+                <view class="letf_wrap">
+                    <view class="title">肺活量</view>
+                </view>
+                <view class="mid_wrap">
+                    <input bind:input="input" id="2" type="number" />
+                    <view class="tip">ml</view>
+                </view>
+                <view class="right_wrap">
+                    <view class="grade">{{air}}分</view>
+                </view>
+            </view>
+            <view class="content_wrap">
+                <view class="letf_wrap">
+                    <view class="title">立定跳远</view>
+                </view>
+                <view class="mid_wrap">
+                    <input bind:input="input" id="3" />
+                    <view class="tip">cm</view>
+                </view>
+                <view class="right_wrap">
+                    <view class="grade">{{jump}}分</view>
+                </view>
+            </view>
+            <view class="content_wrap">
+                <view class="letf_wrap">
+                    <view class="title">坐位体前屈</view>
+                </view>
+                <view class="mid_wrap">
+                    <input bind:input="input" id="4" />
+                    <view class="tip">cm</view>
+                </view>
+                <view class="right_wrap">
+                    <view class="grade">{{long}}分</view>
+                </view>
+            </view>
+            <view class="content_wrap">
+                <view class="letf_wrap">
+                    <view class="title">引体向上</view>
+                </view>
+                <view class="mid_wrap">
+                    <input bind:input="input" id="5" />
+                    <view class="tip">个</view>
+                </view>
+                <view class="right_wrap">
+                    <view class="grade">{{pull}}分</view>
+                </view>
+            </view>
+            <view class="content_wrap">
+                <view class="letf_wrap">
+                    <view class="title">50米</view>
+                </view>
+                <view class="mid_wrap">
+                    <input bind:input="input" id="6" />
+                    <view class="tip">秒</view>
+                </view>
+                <view class="right_wrap">
+                    <view class="grade">{{short_run}}分</view>
+                </view>
+            </view>
+            <view class="content_wrap">
+                <view class="letf_wrap">
+                    <view class="title">1000米</view>
+                </view>
+                <view class="mid_wrap">
+                    <input bind:input="input" id="7" />
+                    <view class="tip">分</view>
+                    <input bind:input="input" id="8" />
+                    <view class="tip">秒</view>
+                </view>
+                <view class="right_wrap">
+                    <view class="grade">{{long_run}}分</view>
+                </view>
+            </view>
+        </view>
+        <view class="handle_wrap" hidden="{{!hidMale}}">
+            <view class="content_wrap">
+                <view class="letf_wrap">
+                    <view class="title">身高</view>
+                </view>
+                <view class="mid_wrap">
+                    <input bind:input="input" id="0" />
+                    <view class="tip">cm</view>
+                </view>
+                <view class="right_wrap">
+                    <view class="grade" hidden="{{true}}">{{height}}分</view>
+                </view>
+            </view>
+            <view class="content_wrap">
+                <view class="letf_wrap">
+                    <view class="title">体重</view>
+                </view>
+                <view class="mid_wrap">
+                    <input bind:input="input" id="1" />
+                    <view class="tip">kg</view>
+                </view>
+                <view class="right_wrap">
+                    <view class="grade">{{weigh}}分</view>
+                </view>
+            </view>
+            <view class="content_wrap">
+                <view class="letf_wrap">
+                    <view class="title">肺活量</view>
+                </view>
+                <view class="mid_wrap">
+                    <input bind:input="input" id="2" type="number" />
+                    <view class="tip">ml</view>
+                </view>
+                <view class="right_wrap">
+                    <view class="grade">{{air}}分</view>
+                </view>
+            </view>
+            <view class="content_wrap">
+                <view class="letf_wrap">
+                    <view class="title">立定跳远</view>
+                </view>
+                <view class="mid_wrap">
+                    <input bind:input="input" id="3" />
+                    <view class="tip">cm</view>
+                </view>
+                <view class="right_wrap">
+                    <view class="grade">{{jump}}分</view>
+                </view>
+            </view>
+            <view class="content_wrap">
+                <view class="letf_wrap">
+                    <view class="title">坐位体前屈</view>
+                </view>
+                <view class="mid_wrap">
+                    <input bind:input="input" id="4" />
+                    <view class="tip">cm</view>
+                </view>
+                <view class="right_wrap">
+                    <view class="grade">{{long}}分</view>
+                </view>
+            </view>
+            <view class="content_wrap">
+                <view class="letf_wrap">
+                    <view class="title">50米</view>
+                </view>
+                <view class="mid_wrap">
+                    <input bind:input="input" id="6" />
+                    <view class="tip">秒</view>
+                </view>
+                <view class="right_wrap">
+                    <view class="grade">{{short_run}}分</view>
+                </view>
+            </view>
+            <view class="content_wrap">
+                <view class="letf_wrap">
+                    <view class="title">仰卧起坐</view>
+                </view>
+                <view class="mid_wrap">
+                    <input bind:input="input" id="9" />
+                    <view class="tip">个</view>
+                </view>
+                <view class="right_wrap">
+                    <view class="grade">{{upp}}分</view>
+                </view>
+            </view>
+            <view class="content_wrap">
+                <view class="letf_wrap">
+                    <view class="title">800米</view>
+                </view>
+                <view class="mid_wrap">
+                    <input bind:input="input" id="10" />
+                    <view class="tip">分</view>
+                    <input bind:input="input" id="11" />
+                    <view class="tip">秒</view>
+                </view>
+                <view class="right_wrap">
+                    <view class="grade">{{feRun}}分</view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

@@ -1,0 +1,28 @@
+.all_wrap .search_wrap {
+  display: flex;
+  flex-direction: row;
+  padding: 10rpx;
+  margin: 12rpx;
+  border: 1rpx solid #9c9c9c;
+  border-radius: 24rpx;
+}
+.all_wrap .search_wrap input {
+  margin-left: 12rpx;
+  text-align: left;
+  flex: 5;
+}
+.all_wrap .search_wrap .search {
+  flex: 1;
+  border-left: 1rpx solid #8d8d8d;
+  padding-left: 12rpx;
+  text-align: center;
+  color: #5a5a5a;
+}
+.all_wrap .change_wrap {
+  padding: 24rpx;
+}
+.all_wrap .change_wrap .change_wrap .change {
+  margin-top: 12rpx;
+  display: flex;
+  flex-direction: row;
+}

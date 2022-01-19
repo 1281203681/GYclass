@@ -1,0 +1,40 @@
+<scroll-view>
+    <view class="all_wrap" bindtouchstart='touchStart' bindtouchmove='touchMove' bindtouchend="touchEnd">
+        <view class="mess_wrap">
+            <view class="top_wrap">
+                <view class="content_1">{{week}}周|星期{{day}}</view>
+                <view class="content_2">今日空闲教室</view>
+                <view class="img">
+                    <image src="../../icon/classroom.png" />
+                </view>
+                <view class="tip">提示:左右滑动可翻页</view>
+            </view>
+        </view>
+        <view class="change">
+            <view class="chang_wrap">
+                <radio-group bindchange="radioChange" class="group">
+                    <label class="label" wx:for="{{items}}" wx:key="{{item.value}}">
+                        <view class="content">
+                            <radio value="{{item.value}}" checked="{{item.checked}}" />
+                        </view>
+                        <view class="title">{{item.name}}</view>
+                    </label>
+                </radio-group>
+            </view>
+        </view>
+        <!-- 全部无课 -->
+        <view class="content_wrap">
+            <view class="item_wrap" wx:for="{{free_obj}}" wx:for-index="index" wx:for-item="item">
+                <view class="left_wrap">
+                    <view class="content_1">教室：{{item.jxcdmc}}</view>
+                    <view class="content_2">
+                        空闲时间：{{free_time}}
+                    </view>
+                </view>
+                <view class="right_wrap">
+                    <view class="content">{{item.rnskrs}}个座位</view>
+                </view>
+            </view>
+        </view>
+    </view>
+</scroll-view>

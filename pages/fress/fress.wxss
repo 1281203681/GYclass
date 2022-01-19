@@ -1,0 +1,29 @@
+.all_wrap .school_setect .item_wrap_wrap {
+  border-radius: 24rpx;
+  margin: 24rpx;
+  margin-top: 10%;
+  display: flex;
+  flex-direction: row;
+  padding: 24rpx;
+  align-items: center;
+  background-image: linear-gradient(to right, #92e6ff, #77e2d0);
+  box-shadow: 5px 5px 5px #b4b4b4;
+}
+.all_wrap .school_setect .item_wrap_wrap .left_wrap {
+  flex: 4;
+  color: white;
+}
+.all_wrap .school_setect .item_wrap_wrap .left_wrap .chinese {
+  font-size: 44rpx;
+}
+.all_wrap .school_setect .item_wrap_wrap .left_wrap .english {
+  padding-top: 12rpx;
+  font-size: 34rpx;
+}
+.all_wrap .school_setect .item_wrap_wrap .rigth_wrap {
+  flex: 1;
+}
+.all_wrap .school_setect .item_wrap_wrap .rigth_wrap .img image {
+  height: 120rpx;
+  width: 120rpx;
+}

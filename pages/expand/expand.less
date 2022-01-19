@@ -1,0 +1,91 @@
+.all_wrap {
+    .top_wrap {
+        padding-bottom  : 96rpx;
+        background-image: linear-gradient(to bottom, rgb(133, 221, 255), rgb(216, 252, 253));
+        box-shadow      : 5px 5px 5px #f0f0f0;
+        font-size       : 46rpx;
+        padding-top     : 48rpx;
+        text-align      : center;
+        color           : white;
+    }
+
+    .list_wrap {
+        padding: 24rpx;
+
+        .item_wrap {
+            .item {
+                display        : flex;
+                flex-direction : row;
+                padding        : 12rpx;
+                align-items    : center;
+                justify-content: center;
+                text-align     : center;
+                // border         : 1rpx solid skyblue;
+                margin-top     : 12rpx;
+                border-bottom: 1rpx solid rgb(196, 196, 196);
+
+                .left_wrap {
+                    flex: 1;
+                    display: flex;
+                    // background-color: red;
+                    height: 130rpx;
+                    width: 130rpx;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+                    color: white;
+                    font-weight: 600;
+                    background-image: linear-gradient(to bottom, RGB(82,207,255), rgb(166, 240, 243));
+                    .num {}
+                }
+
+                .mid_wrap {
+                    flex        : 4;
+                    text-align  : left;
+                    padding-left: 12rpx;
+
+                    .caption {
+                        font-weight       : 700;
+                        font-size         : 35rpx;
+                        display           : -webkit-box;
+                        overflow          : hidden;
+                        text-overflow     : ellipsis;
+                        word-wrap         : break-word;
+                        white-space       : normal;
+                        -webkit-line-clamp: 1;
+                        -webkit-box-orient: vertical;
+                    }
+
+                    .school {
+                        font-size: 31rpx;
+                    }
+
+                    .status {
+                        font-size: 30rpx;
+                        display: flex;
+                        flex-direction: row;
+                        width: 210rpx;
+                        border: 1rpx solid rgb(133,221,255);
+                        .title{
+                            background-color: rgb(133,221,255);
+                            color: white;
+                            padding-right: 8rpx;
+                        }
+                        .content{
+                            color: rgb(133,221,255);
+                            padding-left: 6rpx;
+                        }
+                    }
+                }
+
+                .right_wrap {
+                    flex: 1;
+                    color: skyblue;
+                    font-size: 40rpx;
+                    font-weight: 700;
+                    .grade {}
+                }
+            }
+        }
+    }
+}

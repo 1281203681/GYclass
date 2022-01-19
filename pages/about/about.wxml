@@ -1,0 +1,25 @@
+<view class="all_wrap">
+    <view class="top_title">关于助手</view>
+    <view class="content">广油助手小程序是非官方平台，为广油师生提供综合数据服务。</view>
+    <view class="thank_wrap">
+        <view class="thank_item">
+            <view class="mess_wrap">
+                <view class="img_wrap">
+                    <view class="img_item">
+                        <image src="cloud://gykb-3gpyrnzwc016b452.6779-gykb-3gpyrnzwc016b452-1308292394/鸣谢/奶诗..jpg" />
+                        <view class="name">奶诗.</view>
+                    </view>
+                    <view class="img_item">
+                        <image src="cloud://gykb-3gpyrnzwc016b452.6779-gykb-3gpyrnzwc016b452-1308292394/鸣谢/🐼.jpg" />
+                        <view class="name">🐼</view>
+                    </view>
+                    <view class="img_item">
+                        <image src="cloud://gykb-3gpyrnzwc016b452.6779-gykb-3gpyrnzwc016b452-1308292394/鸣谢/zh ang 張.jpg" />
+                        <view class="name">zhang張</view>
+                    </view>
+                </view>
+            </view>
+            <view class="content_wrap">感谢:美术指导</view>
+        </view>
+    </view>
+</view>

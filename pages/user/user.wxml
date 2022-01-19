@@ -1,0 +1,53 @@
+<!-- 未登录 -->
+<view class="login_all_wrap" hidden="{{!login_page}}">
+    <view class="tip_wrap">
+        <view class="tip">温馨提示：</view>
+        <view class="tip">首次登录需要更新数据</view>
+        <view class="tip">修改密码请登录教务系统</view>
+        <view class="tip">请在教务系统开放时间登录(23点后关闭)</view>
+    </view>
+    <view class="login_wrap">
+        <view class="img_wrap">
+            <image src="https://z3.ax1x.com/2021/09/09/hOYzSx.png" />
+        </view>
+        <view class="operation_wrap">
+            <view class="list">
+                <view class="title">账号</view>
+                <input placeholder="请输账号" type="number" bind:input="count" />
+            </view>
+            <view class="list">
+                <view class="title">密码</view>
+                <input placeholder="请输入密码" password="{{true}}" bind:input="password" />
+            </view>
+        </view>
+    </view>
+    <navigator class="bt" bind:tap="login">登录</navigator>
+</view>
+<!-- 已登录 -->
+<view class="user_all_wrap" hidden="{{login_page}}">
+    <navigator class="content_item_wrap" wx:for="{{list_item}}" style="{{item.style}}" url="{{item.url}}">
+        <view class="left_content">
+            <view class="chinese">{{item.name}}</view>
+            <view class="english">{{item.en}}</view>
+        </view>
+        <view class="right_wrap">
+            <view class="img_wrap">
+                <image src="{{item.icon}}" />
+            </view>
+        </view>
+    </navigator>
+    <navigator class="content_item_wrap" style="background-image: linear-gradient(to right, rgb(146, 230, 255), rgb(134, 255, 235));" bind:tap="exit">
+        <view class="left_content">
+            <view class="chinese">退出登录</view>
+            <view class="english">Exit</view>
+        </view>
+        <view class="right_wrap">
+            <view class="img_wrap">
+                <image src="../../icon/exit.png" />
+            </view>
+        </view>
+    </navigator>
+    <view class="bt_wrap">
+        <button open-type="contact" type="primary">联系我们</button>
+    </view>
+</view>

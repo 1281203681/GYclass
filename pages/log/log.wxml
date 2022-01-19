@@ -1,0 +1,24 @@
+<view class="all_wrap">
+    <view class="content_wrap">
+        <view class="top_wrap">
+            <view class="version">当前版本：1.0.6</view>
+        </view>
+    </view>
+    <view class="detail_wrap">
+        <view class="content_item">
+            <view class="left_wrap">
+                <view class="tip">v1.0.13(已更新)</view>
+            </view>
+            <view class="right_wrap_list">
+                <view class="list">·课表查询</view>
+                <view class="list">·每日上课任务</view>
+                <view class="list">·空教室查询</view>
+                <view class="list">·图书馆藏查询(学校服务器异常)</view>
+                <view class="list">·体测计算器</view>
+                <view class="list">·素拓分查询</view>
+                <view class="list">·成绩查询</view>
+                <view class="list">·上课任务</view>
+            </view>
+        </view>
+    </view>
+</view>

@@ -1,0 +1,37 @@
+<view class="all_wrap">
+    <view class="school_setect" >
+        <navigator class="item_wrap_wrap" id="0" bind:tap="search" style="background-image: linear-gradient(to right, rgb(255, 146, 146), rgb(247, 238, 160));">
+            <view class="left_wrap">
+                <view class="chinese">西城校区</view>
+                <view class="english">Xicheng Campus</view>
+            </view>
+            <view class="rigth_wrap">
+                <view class="img">
+                    <image src="../../icon/school.png" />
+                </view>
+            </view>
+        </navigator>
+        <navigator class="item_wrap_wrap" id="1" bind:tap="search">
+            <view class="left_wrap">
+                <view class="chinese">官渡校区</view>
+                <view class="english">Guandu Campus</view>
+            </view>
+            <view class="rigth_wrap">
+                <view class="img">
+                    <image src="../../icon/school.png" />
+                </view>
+            </view>
+        </navigator>
+        <navigator class="item_wrap_wrap" id="2" bind:tap="search" style="background-image: linear-gradient(to right, rgb(197, 146, 255), rgb(226, 119, 203));">
+            <view class="left_wrap">
+                <view class="chinese">光华校区</view>
+                <view class="english">Guanghua Campus</view>
+            </view>
+            <view class="rigth_wrap">
+                <view class="img">
+                    <image src="../../icon/school.png" />
+                </view>
+            </view>
+        </navigator>
+    </view>
+</view>

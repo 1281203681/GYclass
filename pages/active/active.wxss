@@ -1,0 +1,54 @@
+.all_wrap .top_wrap {
+  padding-bottom: 96rpx;
+  background-image: linear-gradient(to bottom, #85ddff, #d8fcfd);
+  border-bottom-right-radius: 40%;
+  border-bottom-left-radius: 40%;
+  text-align: center;
+  color: white;
+  padding-top: 48rpx;
+  font-size: 42rpx;
+}
+.all_wrap .content_wrap {
+  padding: 24rpx;
+}
+.all_wrap .content_wrap .tip {
+  padding: 24rpx;
+}
+.all_wrap .content_wrap .card_wrap {
+  background-image: linear-gradient(to right, #a0fdf5, #0e9dfd);
+  margin: 12rpx;
+  padding: 12rpx;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  border-radius: 24rpx;
+}
+.all_wrap .content_wrap .card_wrap .top_contet {
+  display: flex;
+  flex-direction: row;
+}
+.all_wrap .content_wrap .card_wrap .top_contet .card_number {
+  flex: 1;
+}
+.all_wrap .content_wrap .card_wrap .top_contet .vip_tip {
+  flex: 1;
+  text-align: right;
+  padding-right: 6rpx;
+}
+.all_wrap .content_wrap .card_wrap .mid_contetn {
+  font-size: 58rpx;
+  text-align: center;
+  padding: 12rpx;
+}
+.all_wrap .content_wrap .card_wrap .mid_tip {
+  text-align: center;
+  font-size: 32rpx;
+}
+.all_wrap .content_wrap .card_wrap .bott_content {
+  text-align: right;
+  padding: 12rpx;
+  font-size: 32rpx;
+}
+.all_wrap .content_wrap .namTip {
+  text-align: center;
+}

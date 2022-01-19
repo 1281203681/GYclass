@@ -1,0 +1,18 @@
+<view class="all_wrap">
+    <view class="top_wrap">每日新闻速览</view>
+    <view class="item_wrap">
+        <view class="item" wx:for="{{newsObj}}">
+            <view class="left_wrap">
+                <image src="{{item.thumbnail_pic_s}}" />
+            </view>
+            <view class="right_wrap">
+                <view class="title">{{item.title}}</view>
+                <view class="tip_wrap">
+                    <view class="from">来源:{{item.author_name}}</view>
+                    <view class="time">{{item.date}}</view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>
+<!-- <web-view src="https://mini.eastday.com/mobile/211204140846212831296.html" /> -->

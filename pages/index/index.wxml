@@ -1,0 +1,48 @@
+<scroll-view>
+    <view class="all_wrap">
+        <!-- 宣传栏开始 -->
+        <view class="play_wrap">
+            <swiper class="swiper" autoplay="{{true}}" interval="3000">
+                <swiper-item class="swiper_item" wx:for="{{addObj}}" wx:key="index" wx:for-index="index" wx:for-item="item" bind:tap="goDetail" data-index="{{index}}">
+                    <image src="{{item.src}}" />
+                    <!-- <image src="cloud://gykb-3gpyrnzwc016b452.6779-gykb-3gpyrnzwc016b452-1308292394/play_picture/10.jpg" /> -->
+                </swiper-item>
+            </swiper>
+        </view>
+        <!-- 宣传栏结束 -->
+        <!-- 导航栏开始 -->
+        <view class="na_wrap" wx:for="{{play_mess}}" wx:for-index="index" wx:for-item="item" wx:key="index">
+            <navigator class="na_item" wx:for="{{item}}" url="{{item.url}}" wx:for-item="item" wx:for-index="index" wx:key="index">
+                <image src="{{item.mes_id}}" />
+                <view class="na_content">{{item.name}}</view>
+            </navigator>
+            <!-- <navigator class="na_item" wx:for="{{item}}" url="{{item.url}}" wx:for-item="item" wx:for-index="index" wx:key="index">
+                <image src="cloud://gykb-3gpyrnzwc016b452.6779-gykb-3gpyrnzwc016b452-1308292394/轮播图/测试.png" />
+                <view class="na_content">文案馆</view>
+            </navigator> -->
+        </view>
+        <!-- <view class="na_wrap">
+            <navigator class="na_item" wx:for="{{play_mess_2}}" url="{{item.url}}" wx:for-index="index" wx:for-item="item">
+                <image src="{{item.mes_id}}" />
+                <view class="na_content">{{item.name}}</view>
+            </navigator>
+        </view> -->
+        <!-- 导航栏结束 -->
+        <!-- 今日课程详情 -->
+        <view class="class_detail">
+            <view class="title">今日上课内容</view>
+            <view class="class_item" wx:for="{{todayClass}}" wx:for-item="item" wx:for-index="index" wx:key="index">
+                <view class="top_tip_wrap">
+                    <view class="class_name">{{item.kcmc}}</view>
+                    <view class="class_room">@{{item.jxcdmc}}</view>
+                </view>
+                <view class="content_wrap" >课程内容：{{item.sknrjj}}</view>
+                <view class="content_wrap" >授课老师：{{item.teaxms}}</view>
+                <view class="content_wrap" >上课班级：{{item.jxbmc}}</view>
+                <view class="content_wrap" >上课时间：{{item.jcdm2}}节</view>
+                <!-- <view class="content_wrap" wx:else>暂无内容</view> -->
+            </view>
+        </view>
+        <!-- 结束 -->
+    </view>
+</scroll-view>

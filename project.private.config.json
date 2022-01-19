@@ -1,0 +1,77 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "课表",
+          "pathName": "pages/demo2/demo2",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "我的",
+          "pathName": "pages/user/user",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "测试页面",
+          "pathName": "pages/login/login",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "空闲教室",
+          "pathName": "pages/class_room/class_room",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "使用帮助",
+          "pathName": "pages/help/help",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "搜索图书",
+          "pathName": "pages/search/search",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "关于助手",
+          "pathName": "pages/about/about",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "后台管理",
+          "pathName": "pages/manage/manage",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "空闲入口",
+          "pathName": "pages/fress/fress",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "关于",
+          "pathName": "pages/about/about",
+          "scene": null
+        }
+      ]
+    }
+  }
+}
